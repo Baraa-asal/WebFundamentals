@@ -1,0 +1,33 @@
+h1 {                      /*Selecing the tag h1 here*/
+    color: red;
+    text-align: left;
+} 
+
+
+ 
+
+
+#oneblack {
+    color: black;
+}
+#onered {
+    color: red;
+}
+#onegreen {
+    color: green;
+}
+#two {
+    color: blue;
+}
+
+h3 {
+    background-color: grey;
+}
+
+#four {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headers {
+    font-family: 'Courier New', Courier, monospace;
+}

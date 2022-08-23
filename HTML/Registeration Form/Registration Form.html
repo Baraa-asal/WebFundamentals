@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+    <head>
+        <h1>Registration Form</h1>
+    </head>
+    <body>
+        <form action="/process" method="post">
+            <div>
+              <label for="first_name">First Name: *</label>
+              <input type="text" id="first_name" placeholder="Enter your first name" name="first_name">
+            </div><br>
+            <div>
+                <label for="last_name">Last Name: *</label>
+                <input type="text" id="last_name" placeholder="Enter your last name" name="last_name">
+            </div><br>
+            <div>
+                <label for="email_address">Email Address: *</label>
+                <input type="email" id="email_address" placeholder="Enter your email address" name="email_address">
+            </div><br>
+            <div>
+                <label for="password">Password: *</label>
+                <input type="password" id="password" placeholder="Enter your email password" name="password">
+            </div><br>
+            <div>
+                <label for="confirm_password">Confirm Password: *</label>
+                <input type="password" id="confirm_password" placeholder="Confirm your password" name="confirm_password">
+            </div><br>
+            <div>
+                <label for="birthday">Birthday: </label>
+                <input type="date" id="birthday" name="birthday">
+            </div><br>
+            <div>
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="female">
+                <label for="female">Female</label>
+                <input type="radio" id="non-binary" name="non-binary">
+                <label for="non_binary">Non-binary</label>
+                <input type="radio" id="no_answer" name="no_answer">
+                <label for="no_answer">I prefer not to answer</label>
+            </div><br>
+            <div>
+                <label for="description">A short description about myself:</label><br>
+                <textarea name="description" cols="25" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="fav_language">Favorite Language:</label>
+                <select name="language">
+                    <option>JavaScript</option>
+                    <option>HTML</option>
+                    <option>Python</option>
+                    <option>C++</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="updates" id="updates">
+                <label for="updates">Yes, I would like to receive periodic email updates</label>
+            </div>
+            <input type="submit" value="Create Account"><br>
+            <p>
+                * Indicates a requited field <br>
+                PS from Bara'a: Time now: 4:33pm. Thank you, I really enjoyed working on this. 
+            </p>
+    </body>
+</html>

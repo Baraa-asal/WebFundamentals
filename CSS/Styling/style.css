@@ -1,0 +1,30 @@
+* {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    font-family: cursive;
+    margin-top: 8px;
+}
+h1 span {
+    color: aqua;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(145, 145, 241);
+    text-align: right;
+    text-decoration: underline;
+
+}

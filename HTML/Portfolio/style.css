@@ -1,0 +1,74 @@
+          * {                             /*this is talking to EVERY element in the code*/
+            font-family: 'Courier New', Courier, monospace;         
+          }
+
+
+          table,
+           th,
+           td {
+               border: 1px solid black;
+               border-collapse: collapse;
+           }
+
+           a {                    /*this is selecting all links to be red*/
+            /* color: red;*/
+           }
+           a img {               /*this is selecting an image inside an anchor tag (descending)*/
+            /*border : 1px solid #333;*/
+           }
+
+           #my-img {             /*this is speaking to a specific elemnt no matter where it is using id attribute*/
+            border: 2px double #333;
+            border-radius: 50%;
+           }
+
+           
+           .purples {            /*we only took all purple-classed elements*/
+            color: purple;
+           }
+           a.purples {           /*we only took all purple-classed elements that are anchors*/
+            font-style: italic;
+           }
+           .qoute {
+            width: 400px;
+            height: 100px;
+            padding: 10px;
+            background-color: antiquewhite;
+           }
+           .qoute p { /*(descending) selector selector no matter of the type*/
+             color: #333;
+             font-style: italic;
+           }
+           .qoute > p {         /*this is speaking to the direct descendant for the class qoute*/
+            color: red;
+           }
+
+           input {
+            width: 300px;
+           }
+           input [type=submit] {    /*we are talking to the elements withn ATTRIBYTE type submit*/
+            width: 100px;
+           }
+           input[name=email] {
+                border: 1px solid red;
+           }
+    /*
+           a:visited, a {
+            color: black           this is selecting an element when it is in a certain status, like when the link is hovered, make it red, or visited, make
+                                it black, and also, i can talk to two things, one of them was links with a specific status, COMMA all links, so they both take 
+                                what's inside the curly brackets
+           }
+            a:hover {
+               color: red;
+                }
+
+    */
+
+    .mytable div {
+        height: 50px;
+        border-bottom: 1px solid #000;
+        background-color: aqua;
+    }
+        .mytable div:nth-child(odd) {
+            background-color: aquamarine;
+        }
