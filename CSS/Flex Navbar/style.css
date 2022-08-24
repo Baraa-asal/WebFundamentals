@@ -1,21 +1,47 @@
 .nav {
     height: 50px;
     width: 100%;
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(63, 62, 62);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6px;
-
-
+    padding: 6px; 
 }
+
+h1 {
+        color: white;
+        font-family: cursive;
+        margin-left: 10px;
+        font-size: x-large;
+}
+
 ul {
     display: flex;
     align-items: center;
     list-style-type: none;
 }
 
-li {
-    padding: 5px;
+li{
+    padding: 7px;
 }
 
+li a {
+    color: rgba(238, 238, 238, 0.781);
+    text-decoration: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color: rgb(60, 175, 175);
+    color: white;
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    /* Horz  Vert  Blur  Spread  Color  Inset */
+    box-shadow: 3px 3px 0 0 black;
+}
