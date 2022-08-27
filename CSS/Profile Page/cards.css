@@ -1,0 +1,43 @@
+.card {
+  padding: 0px;
+  margin: 0px;
+}
+
+.full-width-card {
+  width: 100%;
+}
+.card .card-header {
+  height: 45px;
+  background-color: #333333;
+  color: white;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.badge {
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  color: #1f1f1f;
+  display: inline-block;
+  min-width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 8px;
+  padding: 2px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card .card-body {
+    background-color: white;
+    border: 3px solid #aaa;
+    padding: 18px 16px;
+    border-top: none;
+}

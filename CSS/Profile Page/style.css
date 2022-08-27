@@ -1,0 +1,58 @@
+/* ----------------P R O F I L E    P A G E-------------- */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+  height: 3000px;
+}
+*,
+img {
+  border: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodycontainer {
+  padding: 30px;
+  padding-top: 120px;
+}
+
+#user {
+  flex: 2;
+  margin-bottom: 30px;
+}
+#education {
+  background-color: rgb(131, 131, 57);
+  flex: 1;
+}
+#main {
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  flex: 3;
+}
+#connections {
+  height: 440px;
+  width: 205px;
+  display: flex;
+  background-color: wheat;
+  flex-direction: column;
+  flex: 1;
+}
+#con-req {
+  background-color: rgb(131, 131, 57);
+  flex: 1;
+  margin-bottom: 30px;
+}
+#your-con {
+  background-color: yellow;
+  flex: 2;
+}

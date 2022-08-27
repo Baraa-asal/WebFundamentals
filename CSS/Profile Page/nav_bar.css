@@ -1,0 +1,58 @@
+#main-header {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* padding: 6px;  */
+  /* height: 60px; */
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 900;
+}
+.nav-container {
+  align-items: center;
+}
+.left-nav-group {
+  display: flex;
+  align-items: center;
+}
+#nav-links {
+  display: flex;
+}
+.nav-title {
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+li a {
+  color: rgba(238, 238, 238, 0.781);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.active {
+  color: white;
+}
+
+.btn {
+  background-color: rgb(60, 175, 175);
+  color: white;
+  height: 30px;
+  width: 80px;
+  padding: 5px;
+  /* Horz  Vert  Blur  Spread  Color  Inset */
+  box-shadow: 3px 3px 0 0 black;
+  font-family: cursive;
+}
