@@ -25,19 +25,75 @@
   height: 30px;
   text-align: center;
   line-height: 30px;
-  margin-right: 8px;
+  margin-right: 6px;
   padding: 2px;
 }
 
 .card-title {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0px;
   padding: 0px;
+  font-weight: lighter;
 }
 
-.card .card-body {
-    background-color: white;
-    border: 3px solid #aaa;
-    padding: 18px 16px;
-    border-top: none;
+.card .card-body, .card .card-footer{
+  background-color: white;
+  border: 3px solid #aaa;
+  padding: 10px;
+  border-top: none;
+}
+
+.card-body #edu-program {
+  font-size: 20px;
+  color: black;
+}
+.card-body #program-period {
+  color: #777777;
+  font-size: 18px;
+}
+.card-body #program-details {
+  color: black;
+}
+.card-body p {
+  margin-bottom: 8px;
+}
+
+.connection-list {
+  padding: 0px;
+  margin: 0px;
+}
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.request-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.check-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.check-btns img {
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.request-info .req-user-img {
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 3px;
+  
+}
+
+.request-info p {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 18px;
+  
 }

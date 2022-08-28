@@ -6,8 +6,7 @@ body {
   font-family: cursive;
   height: 3000px;
 }
-*,
-img {
+*, img {
   border: none;
 }
 
@@ -36,23 +35,20 @@ img {
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
-  margin-right: 24px;
-  flex: 3;
+  margin-right: 25px;
+  flex: 5;
 }
 #connections {
   height: 440px;
   width: 205px;
   display: flex;
-  background-color: wheat;
   flex-direction: column;
-  flex: 1;
+  flex: 2;
 }
 #con-req {
-  background-color: rgb(131, 131, 57);
   flex: 1;
   margin-bottom: 30px;
 }
 #your-con {
-  background-color: yellow;
   flex: 2;
 }
