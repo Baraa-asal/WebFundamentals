@@ -6,7 +6,8 @@ body {
   font-family: cursive;
   height: 3000px;
 }
-*, img {
+*,
+img {
   border: none;
 }
 
