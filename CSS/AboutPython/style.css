@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.root {
+  width: 970px;
+  background-color: darkcyan;
+}
+#upper-header {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  border: 1px solid blue;
+}
+#upper-header img {
+  width: 250px;
+}
+nav ul {
+  border: 1px blue solid;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}

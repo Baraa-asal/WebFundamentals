@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+main, header {
+    width: 970px;
+}
+main {
+    height: 680px;
+    background-color: #245076;
+}
+header {
+    height: 108px;
+    background-color: #245076;
+}
+nav {
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: rgb(141, 173, 163);
+    margin-bottom: 30px;
+}
+
+#content {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(163, 86, 125);
+    display: flex;
+    padding: 15px;
+}
+aside {
+    background-color: beige;
+    flex: 1;
+    margin-right: 15px;
+}
+article {
+    background-color: rgb(146, 32, 66);
+    flex: 2;
+}
