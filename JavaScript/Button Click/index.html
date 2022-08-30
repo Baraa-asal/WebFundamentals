@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Dojonary</title>
+    <script>
+        function loginClicked(e) {
+            if (e.innerHTML === "Login") {
+                e.innerHTML = "Logout"
+            } else {
+                e.innerHTML = "Login"
+            }
+        }
+        function addDefinitionClicked(e) {
+            e.style.display = "none" 
+        }
+
+        function likeBtnClicked(e) {
+            alert("ninja was liked")
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Dojonary</h1>
+            <input id="search-input" placeholder="Search"/>
+            <button id="login-btn" onclick="loginClicked(this)">Login</button>
+        </header>
+        <div class="content">
+            <main class="main-content">
+                <div class="content-item">
+                <button onclick="likeBtnClicked(this)">Like</button>
+
+                </div>
+                <div class="content-item">
+                    <button onclick="likeBtnClicked(this)">Like</button>
+                </div>
+            </main>
+            <aside class="side-content">
+                <div class="content-item"><div>dojo is defined by you</div> <button class="add-definition" onclick="addDefinitionClicked(this)">Add definition</button></div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
