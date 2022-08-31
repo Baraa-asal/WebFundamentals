@@ -5,6 +5,14 @@ if(i%2 !== 0){
     console.log(i)
     }
 }
+
+// var x = 1;
+// while (x < 21) {
+//     if(i%2 !== 0){
+//     console.log(i)
+//     }
+//     x++;
+// }
 console.log("\n")
 
 // -----------Decreasing Multiples of 3------------

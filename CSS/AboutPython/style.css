@@ -4,21 +4,26 @@
 }
 .root {
   width: 970px;
-  background-color: darkcyan;
+  background-color: #245076;
 }
 #upper-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header {
-  border: 1px solid blue;
+  border: 1px solid black;
 }
 #upper-header img {
   width: 250px;
 }
 nav ul {
-  border: 1px blue solid;
+  border: 1px #245076;
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
+}
+
+nav #nav-list {
+  color: white;
 }

@@ -1,0 +1,21 @@
+.someuser {
+    border: 1px solid #000;
+    width: 40%;
+    margin: 30px auto;
+    padding: 15px;
+}
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#likeBtn {
+    border: 1px solid #000;
+    background: gold;
+    color: #000;
+    width: 90px;
+    height: 30px;
+}
+#counter {
+    display: inline-block;
+}
