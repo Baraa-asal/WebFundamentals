@@ -39,6 +39,6 @@ console.log(secondPizza);
 console.log(thirdPizza);
 console.log(forthPizza);
 
-for (var i =0; i< 20; i++) {
+for (var i =0; i< 1; i++) {
     console.log("Random Pizz #"+ (i+1), randomPizza());
 }
