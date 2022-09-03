@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 80px;
+  background-color: #9fc5f8;
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  border: 1px solid black;
+  height: 2000px;
+  padding-top: 100px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
