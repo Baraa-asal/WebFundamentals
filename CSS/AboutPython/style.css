@@ -99,7 +99,7 @@ nav {
 main {
   display: flex;
   justify-content: space-around;
-  align-items: flex;
+  align-items: flex-start;
 }
 section#left-section {
   flex: 1;
@@ -147,4 +147,73 @@ section#right-section .right-section-list li {
 }
 #left-section ul li {
   padding: 5px;
+}
+
+article {
+  background-color: white;
+}
+.container-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+#right-article {
+  flex: 50%;
+  padding-top: 10PX;
+}
+#left-article {
+  flex: 50%;
+  margin-right: 25px;
+  padding-top: 10PX;
+}
+h2 , #right-article p, #left-article p, #right-article ul li, #left-article ul li{
+  text-align: center;
+  margin-bottom: 5px;
+}
+#right-article, #left-article {
+  border-top: 5px solid #71a6d4;
+}
+
+#right-article ul, #left-article ul {
+  list-style-type: none;
+  width: 80%;
+  margin: auto;
+}
+#right-article ul li::before, #left-article ul li::before {
+  content: "▪";
+  color: black;
+  padding: 5px;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+}
+#pypi-link {
+  text-decoration: none;
+  color: #7badd7;
+}
+#right-article ul li, #left-article ul li {
+  position: relative;
+  width: 100%;
+}
+#right-article ul li a, #left-article ul li a {
+color: #7badd7;
+text-decoration: none;
+}
+.footer-links a {
+  color: #6da1cf;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3rem;
+}
+
+.copyright p{
+color: #6da1cf;
+text-align: center;
+padding-bottom: 10px;
 }
