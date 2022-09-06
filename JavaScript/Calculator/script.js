@@ -1,30 +1,23 @@
-var firstOperand = '', secondOperand = '', operator = '' , dotFlag = false;
+var firstOperand = '', secondOperand = '', operator = '';
 var output = 0;
 function press(key) {
     if (operator == '') {
-        firstOperand = setOperand(key, firstOperand);
+        firstOperand += key;
         putOnDisplay(firstOperand)
     } else {
-       secondOperand = setOperand(key, secondOperand); 
+       secondOperand += key;
        putOnDisplay(secondOperand)
     }
 }
 function setOP(op) {
     operator = op;
-    dotFlag = false;
     putOnDisplay(0)
 }
-function setOperand(key, value) {
-    if (key === '.' && dotFlag) return;
-    if (key === '.') dotFlag = true;
-    value = '' + value + key;
-    return value;
-}
+
 function reset() {
     firstOperand =  '';
     secondOperand = '';
     operator = '';
-    dotFlag = '';
     output = 0;
 }
 function clr() {
@@ -49,6 +42,5 @@ function calculate() {
 function putOnDisplay(value) {
     document.querySelector("#display").innerHTML = value;
 }
-firstOperand (operator) secondOperand = 
 
 

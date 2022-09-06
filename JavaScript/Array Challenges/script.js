@@ -6,7 +6,6 @@ function alwaysHungry(arr) {
         console.log("Yummy!")
         isThereFood = true;      //to indicate that it entered the if statement which means that there is food so i dont want to print i am hungry , or if it is false to print i am hungry if it is false
     }
-}
     if (!isThereFood){
     console.log("I am Hungry!")
     }
