@@ -4,18 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dojo Weather</title>
+    <title>DojoWeather</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Dojo Weather</h1>
-        <div></div>
+        <div class="container headercontainer">
+        <h1>DojoWeather</h1>
+        <ul id="header-nav">
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+        </div>
 
     </header>
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5 -->
-    <main>
-
+    <main class="container">
+        <div class="city-navbar">
+            <h2>San Jose</h2>
+            <div class="temp-nav">
+            <p>show temperature in</p>
+            <select name="temp" class="classic temp-list">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+            </div>
+        </div>
+        <div class="forecast-week">
+            <div class="day">
+                <h2>Today</h2>
+                <img src="/Web_Fund/JavaScript/DojoWeather/assets/some_rain.png"/>
+                <h3>some rain</h3>
+                <div class="tempetatures">
+                    <p class="day-temp"><strong>24°</strong></p>
+                    <p class="night-temp"><strong>18°</strong></p>
+                </div>
+            </div>
+            <div class="day">
+                <h2>Tomorrow</h2>
+                <img src="/Web_Fund/JavaScript/DojoWeather/assets/some_sun.png"/>
+                <h3>some sun</h3>
+                <div class="tempetatures">
+                    <p class="day-temp"><strong>27°</strong></p>
+                    <p class="night-temp"><strong>19°</strong></p>
+                </div>
+            </div>
+            <div class="day">
+                <h2>Friday</h2>
+                <img src="/Web_Fund/JavaScript/DojoWeather/assets/some_clouds.png"/>
+                <h3>some clouds</h3>
+                <div class="tempetatures">
+                    <p class="day-temp"><strong>21°</strong></p>
+                    <p class="night-temp"><strong>16°</strong></p>
+                </div>
+            </div>
+            <div class="day">
+                <h2>Saturday</h2>
+                <img src="/Web_Fund/JavaScript/DojoWeather/assets/some_sun.png"/>
+                <h3>some sun</h3>
+                <div class="tempetatures">
+                    <p class="day-temp"><strong>26°</strong></p>
+                    <p class="night-temp"><strong>21°</strong></p>
+                </div>
+            </div>
+        </div>
     </main>
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5 -->
+    <footer class="container">
+        <img id="cookies-img" src="/Web_Fund/JavaScript/DojoWeather/assets/cookie.png"/>
+        <p id="cookies-alert-msg"><span>Stop! Cookie time</span><br>
+            We use cookies (sadly not the edible ones) to personalize
+        content and ads, to provide social media features and to
+        analyse our traffic.
+        <a id="read-more" href="#">Read more...</a>
+        </p>
+        <button id="iaccept-btn">I Accept</button>
+    </footer>
 </body>
 </html>
