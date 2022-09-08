@@ -1,6 +1,4 @@
-var dayTemp = [24, 27, 21, 26]; var nightTemp = [18, 19, 16, 21];
 var tempType = "c"
-
 function showAlert() {
     alert("Loading weather report...")
 }
@@ -9,26 +7,26 @@ function hideMsg() {
     document.querySelector("footer").style.display = "none"
 }
 
-
-
-
-function loadTemperatures() { 
-    for(i=1; i<5; i++) {
-        var day = document.getElementById("day" + i)
-        day.querySelector(".day-temp").innerHTML = convertTemperature(dayTemp[i-1]) + "°"
-        day.querySelector(".night-temp").innerHTML = convertTemperature(nightTemp[i-1]) + "°"
+function loadTemperatures() {
+    
+    let degrees = document.querySelectorAll(".tempetatures > p")  //returns array of ELEMENTS
+    console.log(degrees)
+    for(i=0; i<degrees.length; i++) {
+        degrees[i].innerText = convertTemperature(parseInt(degrees[i].innerText)) + "°"
     }
 }
 
 function convertTemperature (temp) {
     if(tempType=="c") {
-        return temp
+        return Math.round(((temp-32)*5)/9)
     }
-    return Math.round(temp*(9/5)+32);
+    return Math.round(temp*(9/5)+32)
 }
 
 function setTempType(type) {
-    tempType = type;
+    if(type === tempType){    //this is to test that the temptype is equal to the previous value pressed(chosen).
+        return                //this is only optimization, but actually the function is called onChange, so
+    }                         //if we click on f again after already clicked nothing will change ASLAN. we can remove it
+    tempType = type; 
     loadTemperatures()
 }
-loadTemperatures()
